@@ -32,8 +32,8 @@ fun LoginScreen(navController: NavController, modifier: Modifier = Modifier) {
     ) {
         Text(text = "Login")
 
-        TextField(value = username, onValueChange = { username = it})
-        TextField(value = password, onValueChange = { password = it})
+        TextField(value = username, onValueChange = { username = it} )
+        TextField(value = password, onValueChange = { password = it} )
 
         Button(onClick = { navController.navigate(Screen.User(
             username, password

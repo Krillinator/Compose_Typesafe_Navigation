@@ -9,6 +9,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
+import com.krillinator.compose_typesafe_navigation.ui.composables.ActionButton
+import com.krillinator.compose_typesafe_navigation.ui.composables.ButtonType
 
 @Composable
 fun HomeScreen(navController: NavController, modifier: Modifier = Modifier) {
@@ -22,5 +24,30 @@ fun HomeScreen(navController: NavController, modifier: Modifier = Modifier) {
         Button(onClick = { navController.navigate(Screen.Login) }) {
             Text(text = "NAVIGATE TO ${Screen.Login}")
         }
+
+        ActionButton(
+            text = "SUBMIT",
+            buttonType = ButtonType.SUBMIT,
+            onClick = { navController.navigate(Screen.Login) }
+        )
+
+        ActionButton(
+            text = "ERROR",
+            buttonType = ButtonType.ERROR,
+            onClick = { navController.navigate(Screen.Login) }
+        )
+
+        ActionButton(
+            text = "Navigate",
+            buttonType = ButtonType.NAVIGATION,
+            onClick = { navController.navigate(Screen.Login) }
+        )
+
+        ActionButton(
+            text = "DATA_REQUEST",
+            buttonType = ButtonType.DATA_REQUEST,
+            onClick = { navController.navigate(Screen.Login) }
+        )
+
     }
 }
