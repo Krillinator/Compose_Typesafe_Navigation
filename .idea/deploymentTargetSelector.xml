@@ -5,19 +5,19 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="AnimatedCirclePreview (1)">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
+      <SelectionState runConfigName="ExamplePreview">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
       <SelectionState runConfigName="Preview">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="Preview (1)">
+      <SelectionState runConfigName="PreviewHome">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="AnimatedCirclePreview">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="AnimatedLinePreview">
-        <option name="selectionMode" value="DROPDOWN" />
-      </SelectionState>
-      <SelectionState runConfigName="AnimatedCirclePreview (1)">
+      <SelectionState runConfigName="CustomCardPreview">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

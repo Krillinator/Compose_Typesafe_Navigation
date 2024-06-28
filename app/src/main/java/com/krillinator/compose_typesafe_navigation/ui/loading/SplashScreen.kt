@@ -74,7 +74,7 @@ fun SplashScreen(navController: NavController) {
     }
 
     LaunchedEffect(Unit) {
-        delay(3000)
+        delay(1000)
         navController.navigate(Screen.Home) {
             popUpTo<Screen.Splash> { inclusive = true } // Remove from backstack
         }

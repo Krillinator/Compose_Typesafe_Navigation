@@ -1,7 +1,7 @@
 package com.krillinator.compose_typesafe_navigation.ui.theme
 import androidx.compose.ui.graphics.Color
 
-val primaryLight = Color(0xFF3E6837)
+val primaryLight = Color(0xFF44723D)
 val onPrimaryLight = Color(0xFFFFFFFF)
 val primaryContainerLight = Color(0xFFBEF0B2)
 val onPrimaryContainerLight = Color(0xFF002202)

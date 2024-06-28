@@ -46,7 +46,6 @@ class MainActivity : ComponentActivity() {
                         composable<Screen.Splash> {
                             SplashScreen(navController)
                         }
-
                         composable<Screen.Home> {
                             HomeScreen(navController)
                         }
