@@ -11,7 +11,7 @@ import androidx.navigation.NavController
 
 
 @Composable
-fun UserScreen(username: String, password: String, navController: NavController, modifier: Modifier = Modifier) {
+fun UserScreen(username: String?, password: String?, navController: NavController, modifier: Modifier = Modifier) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,

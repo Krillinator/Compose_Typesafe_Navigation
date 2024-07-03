@@ -1,33 +1,19 @@
 package com.krillinator.compose_typesafe_navigation.ui.screen
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.AccountCircle
-import androidx.compose.material.icons.outlined.AccountCircle
-import androidx.compose.material.icons.sharp.AccountCircle
-import androidx.compose.material.icons.twotone.AccountCircle
 import androidx.compose.material3.Button
-import androidx.compose.material3.Icon
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
@@ -35,6 +21,7 @@ import androidx.navigation.compose.rememberNavController
 import com.krillinator.compose_typesafe_navigation.R
 import com.krillinator.compose_typesafe_navigation.ui.composables.CardStyle
 import com.krillinator.compose_typesafe_navigation.ui.composables.CustomCard
+import com.krillinator.compose_typesafe_navigation.ui.screen.navigation.Screen
 
 @Composable
 fun HomeScreen(navController: NavController, modifier: Modifier = Modifier) {
@@ -55,6 +42,8 @@ fun HomeScreen(navController: NavController, modifier: Modifier = Modifier) {
                 .padding(16.dp)
         ) {
 
+            // TODO - Bottom Navigation
+            /*
             Text(
                 text = "Home",
                 style = MaterialTheme.typography.titleLarge,
@@ -67,9 +56,11 @@ fun HomeScreen(navController: NavController, modifier: Modifier = Modifier) {
                 Modifier
                     .clip(CircleShape)
                     .size(46.dp)
-                    .clickable {  }
+                    .clickable { }
 
             )
+
+             */
 
         }
 

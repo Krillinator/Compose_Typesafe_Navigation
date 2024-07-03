@@ -80,7 +80,7 @@ fun CustomCardTemplate(
         Text(
             text = truncateText(
                 text = body,
-                maxLength = 120
+                maxLength = 100
             ),
             style = MaterialTheme.typography.bodyMedium
         )

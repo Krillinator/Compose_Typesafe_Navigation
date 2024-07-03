@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
+import com.krillinator.compose_typesafe_navigation.ui.screen.navigation.Screen
 
 
 @Composable
@@ -35,7 +36,8 @@ fun LoginScreen(navController: NavController, modifier: Modifier = Modifier) {
         TextField(value = username, onValueChange = { username = it} )
         TextField(value = password, onValueChange = { password = it} )
 
-        Button(onClick = { navController.navigate(Screen.User(
+        Button(onClick = { navController.navigate(
+            Screen.User(
             username, password
         )) }) {
             Text(text = "Login")

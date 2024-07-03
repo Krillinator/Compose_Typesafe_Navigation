@@ -51,11 +51,10 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.splashscreen)
-    implementation(libs.coil.compose)
+    implementation(libs.coil.compose)                       // Async Images
+    implementation(libs.kotlinx.serialization.json)         // Typesafe Navigation
 
-    implementation(libs.kotlinx.serialization.json)         // THIS
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

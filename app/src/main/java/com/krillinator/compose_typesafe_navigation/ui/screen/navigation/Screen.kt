@@ -1,4 +1,4 @@
-package com.krillinator.compose_typesafe_navigation.ui.screen
+package com.krillinator.compose_typesafe_navigation.ui.screen.navigation
 
 import kotlinx.serialization.Serializable
 
